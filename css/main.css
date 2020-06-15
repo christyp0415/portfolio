@@ -1,0 +1,164 @@
+/* Main Styles */
+
+body {
+  max-width: 1500px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: #095256;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+/* Grid */
+.full-width {
+  width: 1400px;
+  display: inline-block;
+}
+
+.half-width {
+  width: 600px;
+  display: inline-block;
+}
+
+.third-width {
+  width: 466px;
+  display: inline-block;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Header */
+
+#header {
+  background-image: url(../img/hero-image.png);
+  height: 800px;
+  background-size: cover;
+  width: 1500px;
+}
+
+#header h1 {
+  text-align: center;
+  padding-top: 300px;
+  font-size: 60px;
+  color: #bdbf09;
+}
+
+#header p {text-align: center;
+font-size: 48px;
+color: #095256;}
+
+/* Portfolio */
+
+.content-container-main {
+  display: inline-block;
+  height: 1450px;
+}
+
+.content-rogue {
+  height: 400px;
+}
+
+.content-jubilee {
+  height: 400px;
+}
+
+.content-typography {
+  height: 400px;
+}
+
+.half-width {
+  display: inline-block;
+  float: left;
+}
+
+.half-width {
+  padding-left: 80px;
+}
+
+/* About */
+
+.about-container {
+  height: 550px;
+  width: 1500px;
+  background-color: #087e8b;
+}
+
+#about-header {
+  padding-top: 20px;
+}
+
+#about-header h2 {
+  color: white;
+}
+
+#about-me span {
+  font-weight: bold;
+  color: white;
+}
+
+#about-me p {
+color: white;
+font-size: 24px;}
+
+#about-image, #about-me {
+  padding-top: 40px;
+}
+
+/* Contact Section */
+
+#follow-me img {
+  align-items: center;
+  padding-left: 70px;
+}
+
+.contact-container {
+  padding-top: 50px;
+  height: 500px;
+  width: 1500px;
+  background-color: #095156;
+  margin: 0 auto;
+}
+
+.contact-container h2 {
+  color: white;
+}
+
+.third-width h4 {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.third-width p {
+  text-align: center;
+color: white;}
+
+.third-width img {
+  align-items: center;
+  padding: 10px;
+}
+
+#footer {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #095156;
+  color: white;
+  padding-left: 600px;
+}
